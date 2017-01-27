@@ -1,3 +1,12 @@
+@media only screen and (max-width: 769px){
+  .main-content{
+    margin-right: 0px;
+    &::-webkit-scrollbar{
+    display: none;
+    }
+  }
+}
+
 @media only screen and (max-width: 599px){
   .tableHead{
     min-width: 0;
@@ -31,22 +40,41 @@
       width: 35%;
     }
   }
-}
-
-@media only screen and (max-width: 769px){
-  .main-content{
-    margin-right: 0px;
-    ::-webkit-scrollbar{
-    display: none;
-    }
-  }
-}
-
-@media only screen and (max-width: 415px){
   .main-content table tr .deleteTD{
     height: 65px;
   }
   .txtConfirm{
     height: 65px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .main-content{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .tableHead tr td{
+    text-align: center;
+  }
+  .tableHead tr{
+    .name{
+      text-align: left;
+    };
+  }
+  .main-content table{
+    .age{
+      justify-content: center;
+    }
+    .zodiac{
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .txtConfirm img{
+    left: -22px;
   }
 }

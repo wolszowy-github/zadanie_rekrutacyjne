@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', function(){
     deleteBox[i].addEventListener('click',function(){
       this.classList.toggle('hidden');
       this.nextElementSibling.classList.toggle('hidden');
+      this.nextElementSibling.classList.toggle('marginAdd');
+      this.parentElement.firstElementChild.classList.toggle('paddingReset');
+
     });
   }
 
