@@ -1,0 +1,52 @@
+@media only screen and (max-width: 599px){
+  .tableHead{
+    min-width: 0;
+    width: 100%;
+  }
+  .tableHead tr td{
+    width: 25%;
+  }
+  .tableHead tr{
+    .age{
+      width: 15%;
+    }
+    .zodiac{
+      width: 35%;
+    }
+  }
+  .mainWraper{
+    min-width: 0;
+    width: 100%;
+  }
+  .main-content table td{
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+  .main-content table{
+    .age{
+      width: 15%;
+    }
+    .zodiac{
+      width: 35%;
+    }
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .main-content{
+    margin-right: 0px;
+    ::-webkit-scrollbar{
+    display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 415px){
+  .main-content table tr .deleteTD{
+    height: 65px;
+  }
+  .txtConfirm{
+    height: 65px;
+  }
+}
